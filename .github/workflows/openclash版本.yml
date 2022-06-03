@@ -13,7 +13,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: 开始编译开源固件
+name: 开始编译openclash版本
 
 on:
   repository_dispatch:
