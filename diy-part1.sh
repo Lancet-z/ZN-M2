@@ -1,6 +1,6 @@
 #!/bin/bash
 #新的argon主题
-rm -rf ./package/lean/luci-theme-argon
+#rm -rf ./package/lean/luci-theme-argon
 #rm -rf ./package/lean/luci-app-jd-dailybonus
 # Add a feed source
 #sed -i 's/PATCHVER:=5.10/PATCHVER:=5.4/g' target/linux/x86/Makefile
@@ -20,7 +20,7 @@ echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf
 #svn co https://github.com/Lienol/openwrt-package/trunk/luci-app-socat package/openwrt-packages/luci-app-socat
 
 #主题列表
-echo 'src-git Rinze https://github.com/Lancet-z/luci-theme-Rinze.git' >>feeds.conf.default
+#echo 'src-git Rinze https://github.com/Lancet-z/luci-theme-Rinze.git' >>feeds.conf.default
 
 #echo 'src-git Fuyuko https://github.com/Lancet-z/luci-theme-Fuyuko.git' >>feeds.conf.default
 #echo 'src-git idol https://github.com/Lancet-z/luci-theme-idol.git' >>feeds.conf.default
