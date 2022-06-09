@@ -13,7 +13,7 @@
 name: 同步源码更新
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/openwrt-gl-ax1800
+  REPO_URL: https://github.com/felix-fly/openwrt-ax18.git
   REPO_BRANCH: master
 
 on:
