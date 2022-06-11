@@ -26,8 +26,6 @@ echo 'src-git Rinze https://github.com/Lancet-z/luci-theme-Rinze.git' >>feeds.co
 #echo 'src-git idol https://github.com/Lancet-z/luci-theme-idol.git' >>feeds.conf.default
 #echo 'src-git Valkyrie https://github.com/Lancet-z/luci-theme-Valkyrie.git' >>feeds.conf.default
 
-#废弃部分
-#echo 'src-git liuran001_packages https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
-#echo 'src-git jerryk https://github.com/jerrykuku/openwrt-package' >>feeds.conf.default
-#echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
-#
+#添加adghomme
+cd ./package/lean
+git clone https://github.com/kongfl888/luci-app-adguardhome.git
