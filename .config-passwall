@@ -11,8 +11,6 @@ CONFIG_LIBCURL_HTTP=y
 CONFIG_LIBCURL_MBEDTLS=y
 CONFIG_LIBCURL_NO_SMB="!"
 CONFIG_LIBCURL_PROXY=y
-# CONFIG_PACKAGE_TURBOACC_INCLUDE_BBR_CCA is not set
-CONFIG_PACKAGE_TURBOACC_INCLUDE_OFFLOADING=y
 CONFIG_PACKAGE_ca-bundle=y
 CONFIG_PACKAGE_coreutils=y
 CONFIG_PACKAGE_coreutils-base64=y
@@ -26,16 +24,16 @@ CONFIG_PACKAGE_ip-full=y
 # CONFIG_PACKAGE_kmod-ath11k-ahb is not set
 # CONFIG_PACKAGE_kmod-ath11k-pci is not set
 # CONFIG_PACKAGE_kmod-cfg80211 is not set
-CONFIG_PACKAGE_kmod-ipt-offload=y
 # CONFIG_PACKAGE_kmod-mac80211 is not set
-CONFIG_PACKAGE_kmod-nf-flow=y
 # CONFIG_PACKAGE_kmod-qca-nss-drv-wifi-meshmgr is not set
+CONFIG_PACKAGE_kmod-tcp-bbr=y
 CONFIG_PACKAGE_libcap=y
 CONFIG_PACKAGE_libcurl=y
 CONFIG_PACKAGE_libelf=y
 CONFIG_PACKAGE_libmbedtls=y
 CONFIG_PACKAGE_librt=y
-CONFIG_PACKAGE_libuuid=y
+CONFIG_PACKAGE_libuv=y
+CONFIG_PACKAGE_libwebsockets-full=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
 CONFIG_PACKAGE_luci-app-filetransfer=y
 CONFIG_PACKAGE_luci-app-passwall2=y
@@ -44,23 +42,21 @@ CONFIG_PACKAGE_luci-app-passwall2=y
 # CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Shadowsocks_Rust_Client is not set
 # CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Simple_Obfs is not set
 # CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_V2ray_Plugin is not set
-CONFIG_PACKAGE_luci-app-timewol=y
+CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-turboacc=y
-CONFIG_PACKAGE_luci-app-upnp=y
 CONFIG_PACKAGE_luci-compat=y
 CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-filetransfer-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-passwall2-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-timewol-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-turboacc-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
 CONFIG_PACKAGE_luci-lib-fs=y
-CONFIG_PACKAGE_luci-theme-Butterfly=y
-CONFIG_PACKAGE_luci-theme-rosy=y
-CONFIG_PACKAGE_miniupnpd=y
+CONFIG_PACKAGE_luci-theme-Rinze=y
+CONFIG_PACKAGE_luci-theme-argon=y
 CONFIG_PACKAGE_pdnsd-alt=y
 CONFIG_PACKAGE_resolveip=y
 CONFIG_PACKAGE_tcping=y
+CONFIG_PACKAGE_ttyd=y
 CONFIG_PACKAGE_unzip=y
 CONFIG_PACKAGE_v2ray-geoip=y
 CONFIG_PACKAGE_v2ray-geosite=y
