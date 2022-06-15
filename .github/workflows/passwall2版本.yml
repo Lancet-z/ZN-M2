@@ -25,7 +25,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/hcym/lean-ax1800.git
+  REPO_URL: https://github.com/felix-fly/openwrt-ax18.git
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config-passwall
