@@ -25,8 +25,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/openwrt-gl-ax1800.git
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/felix-fly/openwrt-ax18.git
+  REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config-ssp
   DIY_P1_SH: diy-ssp.sh
