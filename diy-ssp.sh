@@ -1,4 +1,4 @@
-echo 'src-git small8 https://github.com/kenzok8/small-package.git' >>feeds.conf.default
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
 echo 'src-git Rinze https://github.com/Lancet-z/luci-theme-Rinze.git' >>feeds.conf.default
 
 # 科学插件
