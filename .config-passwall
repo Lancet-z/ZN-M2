@@ -8,74 +8,56 @@ CONFIG_LIBCURL_HTTP=y
 CONFIG_LIBCURL_MBEDTLS=y
 CONFIG_LIBCURL_NO_SMB="!"
 CONFIG_LIBCURL_PROXY=y
-CONFIG_OPENSSL_WITH_COMPRESSION=y
-CONFIG_OPENSSL_WITH_DTLS=y
-CONFIG_OPENSSL_WITH_EC2M=y
-CONFIG_OPENSSL_WITH_NPN=y
+CONFIG_LIBMBEDTLS_HAVE_ARMV8CE_AES=y
+CONFIG_LIBSODIUM_MINIMAL=y
 CONFIG_PACKAGE_ca-bundle=y
 CONFIG_PACKAGE_chinadns-ng=y
 CONFIG_PACKAGE_coreutils=y
 CONFIG_PACKAGE_coreutils-base64=y
-CONFIG_PACKAGE_coreutils-nohup=y
 CONFIG_PACKAGE_curl=y
-CONFIG_PACKAGE_dns2socks=y
-CONFIG_PACKAGE_dns2tcp=y
-CONFIG_PACKAGE_haproxy=y
 CONFIG_PACKAGE_ip-full=y
-CONFIG_PACKAGE_libatomic=y
+CONFIG_PACKAGE_ipset=y
+CONFIG_PACKAGE_iptables-mod-tproxy=y
+CONFIG_PACKAGE_kmod-ipt-tproxy=y
 CONFIG_PACKAGE_libcap=y
 CONFIG_PACKAGE_libcurl=y
 CONFIG_PACKAGE_libelf=y
-CONFIG_PACKAGE_libltdl=y
+CONFIG_PACKAGE_libev=y
+CONFIG_PACKAGE_libipset=y
+CONFIG_PACKAGE_libmaxminddb=y
 CONFIG_PACKAGE_libmbedtls=y
-CONFIG_PACKAGE_libncurses=y
+CONFIG_PACKAGE_libmnl=y
 CONFIG_PACKAGE_libpcre=y
-CONFIG_PACKAGE_libreadline=y
-CONFIG_PACKAGE_libuuid=y
-# CONFIG_PACKAGE_luci-app-adguardhome_INCLUDE_binary is not set
-CONFIG_PACKAGE_luci-app-argonne-config=y
-CONFIG_PACKAGE_luci-app-arpbind=y
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_ShadowsocksR_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Shadowsocks_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Simple_Obfs is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Socks5_Proxy is not set
+CONFIG_PACKAGE_libsodium=y
+CONFIG_PACKAGE_libudns=y
+CONFIG_PACKAGE_lua-maxminddb=y
+CONFIG_PACKAGE_luci-app-autoreboot=y
+CONFIG_PACKAGE_luci-app-bypass=y
+# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_ShadowsocksR_Libev_Server is not set
+# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Shadowsocks_Libev_Server is not set
 # CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Socks_Server is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Trojan is not set
-# CONFIG_PACKAGE_luci-app-bypass_INCLUDE_Xray is not set
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs is not set
 # CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk is not set
 CONFIG_PACKAGE_luci-app-filetransfer=y
-CONFIG_PACKAGE_luci-app-passwall=y
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_ShadowsocksR_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Libev_Server is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Shadowsocks_Rust_Client is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Simple_Obfs is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_Trojan_Plus is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray is not set
-# CONFIG_PACKAGE_luci-app-passwall_INCLUDE_V2ray_Plugin is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
+# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Client is not set
 # CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Rust_Server is not set
-CONFIG_PACKAGE_luci-app-upnp=y
-# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Libev_Server is not set
-# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Trojan is not set
-# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray is not set
-# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray_plugin is not set
+# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_PDNSD is not set
+# CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
 CONFIG_PACKAGE_luci-compat=y
-CONFIG_PACKAGE_luci-i18n-argonne-config-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-arpbind-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-bypass-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-filetransfer-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-passwall-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
 CONFIG_PACKAGE_luci-lib-fs=y
-CONFIG_PACKAGE_luci-theme-Rinze=y
-CONFIG_PACKAGE_luci-theme-argonne=y
-CONFIG_PACKAGE_microsocks=y
-CONFIG_PACKAGE_miniupnpd=y
-CONFIG_PACKAGE_resolveip=y
+CONFIG_PACKAGE_luci-theme-material=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-local=y
+CONFIG_PACKAGE_shadowsocks-libev-ss-redir=y
+CONFIG_PACKAGE_shadowsocksr-libev-ssr-local=y
+CONFIG_PACKAGE_shadowsocksr-libev-ssr-redir=y
+CONFIG_PACKAGE_smartdns=y
 CONFIG_PACKAGE_tcping=y
-CONFIG_PACKAGE_terminfo=y
 CONFIG_PACKAGE_unzip=y
 CONFIG_PACKAGE_xray-core=y
 CONFIG_PACKAGE_zlib=y
+CONFIG_ZLIB_OPTIMIZE_SPEED=y
