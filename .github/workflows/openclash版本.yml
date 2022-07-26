@@ -25,7 +25,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/Lancet-z/openwrt-ax18.git
+  REPO_URL: https://github.com/Lancet-z/openwrt-ax1800.git
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config-clash
