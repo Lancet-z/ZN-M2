@@ -1,6 +1,9 @@
 CONFIG_TARGET_ipq60xx=y
 CONFIG_TARGET_ipq60xx_generic=y
 CONFIG_TARGET_ipq60xx_generic_DEVICE_zn_m2=y
+# CONFIG_DRIVER_11AC_SUPPORT is not set
+# CONFIG_DRIVER_11AX_SUPPORT is not set
+# CONFIG_DRIVER_11N_SUPPORT is not set
 CONFIG_LIBCURL_COOKIES=y
 CONFIG_LIBCURL_FILE=y
 CONFIG_LIBCURL_FTP=y
@@ -8,64 +11,95 @@ CONFIG_LIBCURL_HTTP=y
 CONFIG_LIBCURL_MBEDTLS=y
 CONFIG_LIBCURL_NO_SMB="!"
 CONFIG_LIBCURL_PROXY=y
-CONFIG_LIBMBEDTLS_HAVE_ARMV8CE_AES=y
+CONFIG_PACKAGE_ahcpd=y
 CONFIG_PACKAGE_bash=y
 CONFIG_PACKAGE_ca-bundle=y
 CONFIG_PACKAGE_ca-certificates=y
 CONFIG_PACKAGE_coreutils=y
+CONFIG_PACKAGE_coreutils-base64=y
 CONFIG_PACKAGE_coreutils-nohup=y
 CONFIG_PACKAGE_curl=y
+# CONFIG_PACKAGE_hostapd-common is not set
 CONFIG_PACKAGE_ip-full=y
-CONFIG_PACKAGE_ip-tiny=y
-CONFIG_PACKAGE_ipset=y
-CONFIG_PACKAGE_iptables-mod-tproxy=y
-CONFIG_PACKAGE_kmod-ipt-tproxy=y
+CONFIG_PACKAGE_ip6tables-mod-nat=y
+# CONFIG_PACKAGE_iw is not set
+# CONFIG_PACKAGE_kmod-ath is not set
+# CONFIG_PACKAGE_kmod-ath11k is not set
+# CONFIG_PACKAGE_kmod-ath11k-ahb is not set
+# CONFIG_PACKAGE_kmod-ath11k-pci is not set
+# CONFIG_PACKAGE_kmod-cfg80211 is not set
+CONFIG_PACKAGE_kmod-ipt-nat6=y
+# CONFIG_PACKAGE_kmod-mac80211 is not set
+CONFIG_PACKAGE_kmod-nf-nat6=y
+CONFIG_PACKAGE_kmod-qca-nss-drv-bridge-mgr=y
+# CONFIG_PACKAGE_kmod-qca-nss-drv-pppoe is not set
+CONFIG_PACKAGE_kmod-qca-nss-drv-vlan-mgr=y
+# CONFIG_PACKAGE_kmod-qca-nss-drv-wifi-meshmgr is not set
 CONFIG_PACKAGE_kmod-tun=y
 CONFIG_PACKAGE_libcap=y
 CONFIG_PACKAGE_libcap-bin=y
 CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
 CONFIG_PACKAGE_libcurl=y
+CONFIG_PACKAGE_libdb47=y
 CONFIG_PACKAGE_libelf=y
 CONFIG_PACKAGE_libgmp=y
-CONFIG_PACKAGE_libipset=y
 CONFIG_PACKAGE_libmbedtls=y
-CONFIG_PACKAGE_libmnl=y
 CONFIG_PACKAGE_libncurses=y
 CONFIG_PACKAGE_libreadline=y
 CONFIG_PACKAGE_librt=y
 CONFIG_PACKAGE_libruby=y
 CONFIG_PACKAGE_libuuid=y
+CONFIG_PACKAGE_libuv=y
+CONFIG_PACKAGE_libwebsockets-full=y
+CONFIG_PACKAGE_libxml2=y
 CONFIG_PACKAGE_libyaml=y
 CONFIG_PACKAGE_luci-app-arpbind=y
 CONFIG_PACKAGE_luci-app-autoreboot=y
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk is not set
 CONFIG_PACKAGE_luci-app-filetransfer=y
 CONFIG_PACKAGE_luci-app-openclash=y
-# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
-# CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
-# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_BBR_CCA is not set
-# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_PDNSD is not set
-# CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
+# CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_ShadowsocksR_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Shadowsocks_Libev_Client is not set
+# CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Shadowsocks_Rust_Client is not set
+# CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_Simple_Obfs is not set
+# CONFIG_PACKAGE_luci-app-passwall2_INCLUDE_V2ray_Plugin is not set
+# CONFIG_PACKAGE_luci-app-passwall2_Transparent_Proxy is not set
+CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-app-upnp=y
+CONFIG_PACKAGE_luci-compat=y
 CONFIG_PACKAGE_luci-i18n-arpbind-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-filetransfer-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
 CONFIG_PACKAGE_luci-i18n-upnp-zh-cn=y
 CONFIG_PACKAGE_luci-lib-fs=y
-CONFIG_PACKAGE_luci-theme-Rinze=y
-CONFIG_PACKAGE_luci-theme-argon=y
+CONFIG_PACKAGE_luci-theme-Butterfly=y
+CONFIG_PACKAGE_luci-theme-freifunk-generic=y
+CONFIG_PACKAGE_luci-theme-rosy=y
 CONFIG_PACKAGE_miniupnpd=y
+CONFIG_PACKAGE_resolveip=y
 CONFIG_PACKAGE_ruby=y
 CONFIG_PACKAGE_ruby-bigdecimal=y
 CONFIG_PACKAGE_ruby-date=y
+CONFIG_PACKAGE_ruby-dbm=y
 CONFIG_PACKAGE_ruby-digest=y
 CONFIG_PACKAGE_ruby-enc=y
-CONFIG_PACKAGE_ruby-forwardable=y
 CONFIG_PACKAGE_ruby-pstore=y
 CONFIG_PACKAGE_ruby-psych=y
 CONFIG_PACKAGE_ruby-stringio=y
 CONFIG_PACKAGE_ruby-strscan=y
 CONFIG_PACKAGE_ruby-yaml=y
+CONFIG_PACKAGE_tcping=y
 CONFIG_PACKAGE_terminfo=y
+CONFIG_PACKAGE_ttyd=y
+CONFIG_PACKAGE_unzip=y
+CONFIG_PACKAGE_v2ray-geoip=y
+CONFIG_PACKAGE_v2ray-geosite=y
+# CONFIG_PACKAGE_wireless-regdb is not set
+# CONFIG_PACKAGE_wpad-openssl is not set
+CONFIG_PACKAGE_xray-core=y
 CONFIG_PACKAGE_zlib=y
-CONFIG_ZLIB_OPTIMIZE_SPEED=y
+CONFIG_PACKAGE_iptables-mod-conntrack-extra=y
+CONFIG_PACKAGE_iptables-mod-iprange=y
+CONFIG_PACKAGE_kmod-ipt-conntrack-extra=y
+CONFIG_PACKAGE_kmod-ipt-iprange=y
+CONFIG_PACKAGE_kmod-ipt-raw=y
