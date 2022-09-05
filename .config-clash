@@ -12,6 +12,7 @@ CONFIG_LIBCURL_MBEDTLS=y
 CONFIG_LIBCURL_NO_SMB="!"
 CONFIG_LIBCURL_PROXY=y
 CONFIG_PACKAGE_ahcpd=y
+# CONFIG_PACKAGE_ath11k-firmware-ipq6018 is not set
 CONFIG_PACKAGE_bash=y
 CONFIG_PACKAGE_ca-bundle=y
 CONFIG_PACKAGE_ca-certificates=y
@@ -19,6 +20,7 @@ CONFIG_PACKAGE_coreutils=y
 CONFIG_PACKAGE_coreutils-base64=y
 CONFIG_PACKAGE_coreutils-nohup=y
 CONFIG_PACKAGE_curl=y
+CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
 # CONFIG_PACKAGE_hostapd-common is not set
 CONFIG_PACKAGE_ip-full=y
 CONFIG_PACKAGE_ip6tables-mod-nat=y
