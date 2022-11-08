@@ -1,77 +1,36 @@
 CONFIG_TARGET_ipq60xx=y
 CONFIG_TARGET_ipq60xx_generic=y
 CONFIG_TARGET_ipq60xx_generic_DEVICE_zn_m2=y
-# CONFIG_DRIVER_11AC_SUPPORT is not set
-# CONFIG_DRIVER_11AX_SUPPORT is not set
-# CONFIG_DRIVER_11N_SUPPORT is not set
-CONFIG_LIBCURL_COOKIES=y
-CONFIG_LIBCURL_CRYPTO_AUTH=y
-CONFIG_LIBCURL_FILE=y
-CONFIG_LIBCURL_FTP=y
-CONFIG_LIBCURL_HTTP=y
-CONFIG_LIBCURL_NGHTTP2=y
-CONFIG_LIBCURL_OPENSSL=y
-CONFIG_LIBCURL_PROXY=y
-CONFIG_LIBCURL_TFTP=y
-CONFIG_LIBCURL_THREADED_RESOLVER=y
-CONFIG_LIBCURL_TLS_SRP=y
-CONFIG_LIBCURL_UNIX_SOCKETS=y
 CONFIG_PACKAGE_bash=y
-CONFIG_PACKAGE_ca-certificates=y
 CONFIG_PACKAGE_coreutils=y
 CONFIG_PACKAGE_coreutils-nohup=y
-CONFIG_PACKAGE_curl=y
-CONFIG_PACKAGE_ip-full=y
-CONFIG_PACKAGE_ipset=y
-CONFIG_PACKAGE_iptables-mod-tproxy=y
-# CONFIG_PACKAGE_iw is not set
-# CONFIG_PACKAGE_kmod-ath is not set
-# CONFIG_PACKAGE_kmod-ath11k is not set
-# CONFIG_PACKAGE_kmod-ath11k-ahb is not set
-# CONFIG_PACKAGE_kmod-ath11k-pci is not set
-# CONFIG_PACKAGE_kmod-cfg80211 is not set
+# CONFIG_PACKAGE_etherwake is not set
 CONFIG_PACKAGE_kmod-inet-diag=y
-CONFIG_PACKAGE_kmod-ip6tables=y
-CONFIG_PACKAGE_kmod-ipt-tproxy=y
-# CONFIG_PACKAGE_kmod-mac80211 is not set
-CONFIG_PACKAGE_kmod-nf-ipt6=y
-CONFIG_PACKAGE_kmod-nf-reject6=y
-# CONFIG_PACKAGE_kmod-qca-nss-drv-wifi-meshmgr is not set
-CONFIG_PACKAGE_kmod-tun=y
+# CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
 CONFIG_PACKAGE_libcap=y
 CONFIG_PACKAGE_libcap-bin=y
 CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
-CONFIG_PACKAGE_libcurl=y
-CONFIG_PACKAGE_libelf=y
-CONFIG_PACKAGE_libipset=y
+CONFIG_PACKAGE_libgmp=y
 CONFIG_PACKAGE_libncurses=y
-CONFIG_PACKAGE_libnghttp2=y
 CONFIG_PACKAGE_libreadline=y
-CONFIG_PACKAGE_librt=y
 CONFIG_PACKAGE_libruby=y
-CONFIG_PACKAGE_libuv=y
-CONFIG_PACKAGE_libwebsockets-full=y
 CONFIG_PACKAGE_libyaml=y
-CONFIG_PACKAGE_luci-app-arpbind=y
-CONFIG_PACKAGE_luci-app-autoreboot=y
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_btrfs_progs is not set
-# CONFIG_PACKAGE_luci-app-diskman_INCLUDE_lsblk is not set
+# CONFIG_PACKAGE_luci-app-accesscontrol is not set
+# CONFIG_PACKAGE_luci-app-ddns is not set
+# CONFIG_PACKAGE_luci-app-nlbwmon is not set
 CONFIG_PACKAGE_luci-app-openclash=y
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-ng is not set
 # CONFIG_PACKAGE_luci-app-rclone_INCLUDE_rclone-webui is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ChinaDNS_NG is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_ShadowsocksR_Libev_Client is not set
-# CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks_Simple_Obfs is not set
-CONFIG_PACKAGE_luci-app-ttyd=y
-# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_ShadowsocksR_Libev_Server is not set
-# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Trojan is not set
-# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray is not set
-# CONFIG_PACKAGE_luci-app-vssr_INCLUDE_Xray_plugin is not set
-CONFIG_PACKAGE_luci-i18n-arpbind-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-autoreboot-zh-cn=y
-CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
-CONFIG_PACKAGE_luci-theme-Rinze=y
-CONFIG_PACKAGE_luci-theme-neobird=y
+# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_BBR_CCA is not set
+# CONFIG_PACKAGE_luci-app-turboacc_INCLUDE_PDNSD is not set
+# CONFIG_PACKAGE_luci-app-unblockmusic_INCLUDE_UnblockNeteaseMusic_Go is not set
+CONFIG_PACKAGE_luci-app-uugamebooster=y
+# CONFIG_PACKAGE_luci-app-vlmcsd is not set
+# CONFIG_PACKAGE_luci-app-vsftpd is not set
+# CONFIG_PACKAGE_luci-app-wol is not set
+CONFIG_PACKAGE_luci-i18n-uugamebooster-zh-cn=y
+CONFIG_PACKAGE_luci-theme-material=y
+# CONFIG_PACKAGE_nlbwmon is not set
 CONFIG_PACKAGE_ruby=y
 CONFIG_PACKAGE_ruby-bigdecimal=y
 CONFIG_PACKAGE_ruby-date=y
@@ -84,9 +43,8 @@ CONFIG_PACKAGE_ruby-stringio=y
 CONFIG_PACKAGE_ruby-strscan=y
 CONFIG_PACKAGE_ruby-yaml=y
 CONFIG_PACKAGE_terminfo=y
-CONFIG_PACKAGE_ttyd=y
 CONFIG_PACKAGE_unzip=y
-# CONFIG_PACKAGE_wireless-regdb is not set
-CONFIG_PACKAGE_zlib=y
-# CONFIG_UnblockNeteaseMusic_Go is not set
-# CONFIG_UnblockNeteaseMusic_NodeJS is not set
+CONFIG_PACKAGE_uugamebooster=y
+# CONFIG_PACKAGE_vlmcsd is not set
+# CONFIG_PACKAGE_vsftpd-alt is not set
+# CONFIG_PACKAGE_wol is not set
