@@ -1,17 +1,21 @@
 CONFIG_TARGET_ipq60xx=y
 CONFIG_TARGET_ipq60xx_generic=y
 CONFIG_TARGET_ipq60xx_generic_DEVICE_zn_m2=y
+CONFIG_COREMARK_ENABLE_MULTITHREADING=y
+CONFIG_COREMARK_NUMBER_OF_THREADS=8
+CONFIG_COREMARK_OPTIMIZE_O3=y
+# CONFIG_JSON_OVERVIEW_IMAGE_INFO is not set
 CONFIG_LIBCURL_COOKIES=y
 CONFIG_LIBCURL_FILE=y
 CONFIG_LIBCURL_FTP=y
 CONFIG_LIBCURL_HTTP=y
-CONFIG_LIBCURL_MBEDTLS=y
-CONFIG_LIBCURL_NGHTTP2=y
 CONFIG_LIBCURL_NO_SMB="!"
+CONFIG_LIBCURL_OPENSSL=y
 CONFIG_LIBCURL_PROXY=y
 CONFIG_LUA_ECO_DEFAULT_OPENSSL=y
 CONFIG_LUA_ECO_OPENSSL=y
 # CONFIG_LUA_ECO_WOLFSSL is not set
+CONFIG_LUCI_LANG_zh_Hans=y
 CONFIG_OPENSSL_ENGINE=y
 CONFIG_OPENSSL_WITH_ASM=y
 CONFIG_OPENSSL_WITH_CHACHA_POLY1305=y
@@ -23,29 +27,53 @@ CONFIG_OPENSSL_WITH_SRP=y
 CONFIG_OPENSSL_WITH_TLS13=y
 CONFIG_PACKAGE_attendedsysupgrade-common=y
 CONFIG_PACKAGE_bash=y
+CONFIG_PACKAGE_block-mount=y
 CONFIG_PACKAGE_ca-certificates=y
 CONFIG_PACKAGE_cgi-io=y
+CONFIG_PACKAGE_coremark=m
 CONFIG_PACKAGE_coreutils=y
 CONFIG_PACKAGE_coreutils-nohup=y
 CONFIG_PACKAGE_curl=y
 # CONFIG_PACKAGE_dnsmasq is not set
 CONFIG_PACKAGE_dnsmasq-full=y
-CONFIG_PACKAGE_dnsmasq_full_auth=y
-CONFIG_PACKAGE_dnsmasq_full_conntrack=y
 CONFIG_PACKAGE_dnsmasq_full_dhcp=y
-CONFIG_PACKAGE_dnsmasq_full_dhcpv6=y
-CONFIG_PACKAGE_dnsmasq_full_dnssec=y
-CONFIG_PACKAGE_dnsmasq_full_nftset=y
-CONFIG_PACKAGE_dnsmasq_full_noid=y
+CONFIG_PACKAGE_dnsmasq_full_ipset=y
 CONFIG_PACKAGE_dnsmasq_full_tftp=y
-CONFIG_PACKAGE_frpc=y
+CONFIG_PACKAGE_firewall=y
+# CONFIG_PACKAGE_firewall4 is not set
 CONFIG_PACKAGE_ip-full=y
 CONFIG_PACKAGE_ipset=y
+CONFIG_PACKAGE_iptables-mod-extra=y
+CONFIG_PACKAGE_iptables-mod-tproxy=y
+CONFIG_PACKAGE_iptables-nft=y
+CONFIG_PACKAGE_kmod-asn1-decoder=y
+CONFIG_PACKAGE_kmod-crypto-arc4=y
+CONFIG_PACKAGE_kmod-crypto-authenc=y
+CONFIG_PACKAGE_kmod-crypto-chacha20poly1305=y
+CONFIG_PACKAGE_kmod-crypto-ecb=y
+CONFIG_PACKAGE_kmod-crypto-sha1=y
+CONFIG_PACKAGE_kmod-crypto-user=y
+CONFIG_PACKAGE_kmod-cryptodev=y
 CONFIG_PACKAGE_kmod-inet-diag=y
+CONFIG_PACKAGE_kmod-ipt-conntrack=y
 CONFIG_PACKAGE_kmod-ipt-core=y
+CONFIG_PACKAGE_kmod-ipt-extra=y
 CONFIG_PACKAGE_kmod-ipt-ipset=y
+CONFIG_PACKAGE_kmod-ipt-nat=y
+CONFIG_PACKAGE_kmod-ipt-raw=y
+CONFIG_PACKAGE_kmod-ipt-tproxy=y
+CONFIG_PACKAGE_kmod-lib-textsearch=y
+CONFIG_PACKAGE_kmod-macvlan=y
 CONFIG_PACKAGE_kmod-nf-conntrack-netlink=y
+# CONFIG_PACKAGE_kmod-nf-flow is not set
 CONFIG_PACKAGE_kmod-nf-ipt=y
+CONFIG_PACKAGE_kmod-nf-nathelper=y
+CONFIG_PACKAGE_kmod-nf-nathelper-extra=y
+CONFIG_PACKAGE_kmod-nft-compat=y
+# CONFIG_PACKAGE_kmod-nft-fib is not set
+# CONFIG_PACKAGE_kmod-nft-nat is not set
+# CONFIG_PACKAGE_kmod-nft-offload is not set
+CONFIG_PACKAGE_kmod-nls-base=y
 CONFIG_PACKAGE_kmod-tun=y
 CONFIG_PACKAGE_libbpf=y
 CONFIG_PACKAGE_libcap=y
@@ -54,39 +82,60 @@ CONFIG_PACKAGE_libcap-bin-capsh-shell="/bin/sh"
 CONFIG_PACKAGE_libcurl=y
 CONFIG_PACKAGE_libelf=y
 CONFIG_PACKAGE_libgmp=y
+CONFIG_PACKAGE_libip4tc=y
+CONFIG_PACKAGE_libip6tc=y
 CONFIG_PACKAGE_libipset=y
+CONFIG_PACKAGE_libiptext=y
+CONFIG_PACKAGE_libiptext-nft=y
+CONFIG_PACKAGE_libiptext6=y
+CONFIG_PACKAGE_libiwinfo-lua=y
+CONFIG_PACKAGE_liblua=y
 CONFIG_PACKAGE_liblucihttp=y
 CONFIG_PACKAGE_liblucihttp-ucode=y
-CONFIG_PACKAGE_libmbedtls=y
 CONFIG_PACKAGE_libncurses=y
 CONFIG_PACKAGE_libnetfilter-conntrack=y
 CONFIG_PACKAGE_libnettle=y
 CONFIG_PACKAGE_libnfnetlink=y
-CONFIG_PACKAGE_libnghttp2=y
 CONFIG_PACKAGE_libopenssl=y
+CONFIG_PACKAGE_libopenssl-conf=y
+CONFIG_PACKAGE_libpcre=y
 CONFIG_PACKAGE_libreadline=y
 CONFIG_PACKAGE_librt=y
 CONFIG_PACKAGE_libruby=y
+CONFIG_PACKAGE_libustream-openssl=y
+# CONFIG_PACKAGE_libustream-wolfssl is not set
+CONFIG_PACKAGE_libuuid=y
 CONFIG_PACKAGE_libuv=y
 CONFIG_PACKAGE_libwebsockets-full=y
+CONFIG_PACKAGE_libxtables=y
 CONFIG_PACKAGE_libyaml=y
+CONFIG_PACKAGE_lua=y
 CONFIG_PACKAGE_luci=y
 CONFIG_PACKAGE_luci-app-attendedsysupgrade=y
 CONFIG_PACKAGE_luci-app-firewall=y
-CONFIG_PACKAGE_luci-app-frpc=y
 CONFIG_PACKAGE_luci-app-openclash=y
 CONFIG_PACKAGE_luci-app-opkg=y
 CONFIG_PACKAGE_luci-app-ttyd=y
 CONFIG_PACKAGE_luci-base=y
+CONFIG_PACKAGE_luci-i18n-attendedsysupgrade-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-base-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-firewall-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-opkg-zh-cn=y
+CONFIG_PACKAGE_luci-i18n-ttyd-zh-cn=y
+CONFIG_PACKAGE_luci-lib-ip=y
+CONFIG_PACKAGE_luci-lib-jsonc=y
+CONFIG_PACKAGE_luci-lib-nixio=y
 CONFIG_PACKAGE_luci-mod-admin-full=y
 CONFIG_PACKAGE_luci-mod-network=y
 CONFIG_PACKAGE_luci-mod-status=y
 CONFIG_PACKAGE_luci-mod-system=y
 CONFIG_PACKAGE_luci-proto-ipv6=y
 CONFIG_PACKAGE_luci-proto-ppp=y
-CONFIG_PACKAGE_luci-theme-Rinze=y
 CONFIG_PACKAGE_luci-theme-bootstrap=y
-CONFIG_PACKAGE_luci-theme-material=y
+CONFIG_PACKAGE_miniupnpd=y
+# CONFIG_PACKAGE_nftables-json is not set
+CONFIG_PACKAGE_openssl-util=y
+# CONFIG_PACKAGE_procd-ujail is not set
 CONFIG_PACKAGE_rpcd=y
 CONFIG_PACKAGE_rpcd-mod-file=y
 CONFIG_PACKAGE_rpcd-mod-iwinfo=y
@@ -112,4 +161,19 @@ CONFIG_PACKAGE_ucode-mod-math=y
 CONFIG_PACKAGE_uhttpd=y
 CONFIG_PACKAGE_uhttpd-mod-ubus=y
 CONFIG_PACKAGE_unzip=y
+# CONFIG_PACKAGE_urngd is not set
+CONFIG_PACKAGE_wget-ssl=y
+# CONFIG_PACKAGE_wpad-basic-wolfssl is not set
+CONFIG_PACKAGE_wpad-openssl=y
+CONFIG_PACKAGE_xtables-nft=y
 CONFIG_PACKAGE_zlib=y
+# CONFIG_WPA_WOLFSSL is not set
+CONFIG_ZLIB_OPTIMIZE_SPEED=y
+# CONFIG_PACKAGE_dnsmasq_full_auth is not set
+# CONFIG_PACKAGE_dnsmasq_full_conntrack is not set
+# CONFIG_PACKAGE_dnsmasq_full_dhcpv6 is not set
+# CONFIG_PACKAGE_dnsmasq_full_dnssec is not set
+# CONFIG_PACKAGE_dnsmasq_full_nftset is not set
+# CONFIG_PACKAGE_dnsmasq_full_noid is not set
+CONFIG_PACKAGE_kmod-nft-tproxy=y
+# CONFIG_PACKAGE_nftables-json is not set
