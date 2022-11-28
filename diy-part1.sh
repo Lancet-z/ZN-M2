@@ -1,5 +1,5 @@
 #新的argon主题
-rm -rf ./package/lean/luci-theme-argon
+#rm -rf ./package/lean/luci-theme-argon
 #openclash
 echo 'src-git openclash https://github.com/vernesong/OpenClash.git' >>feeds.conf.default
 #主题列表
