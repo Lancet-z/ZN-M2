@@ -25,7 +25,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/aoxueos/openwrt
+  REPO_URL: https://github.com/gw826943555/openwrt.git
   REPO_BRANCH: ipq60xx-5.15
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config-clash
