@@ -25,8 +25,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/gw826943555/openwrt.git
-  REPO_BRANCH: ipq60xx-5.15
+  REPO_URL: https://github.com/Lancet-z/IPQ6018.git
+  REPO_BRANCH: ipq6018-devel
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config-clash
   DIY_P1_SH: diy-part1.sh
