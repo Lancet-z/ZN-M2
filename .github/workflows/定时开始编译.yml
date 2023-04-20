@@ -14,7 +14,7 @@ name: 同步源码更新
 
 env:
   REPO_URL: https://github.com/sdf8057/immortalwrt.git
-  REPO_BRANCH: AX16
+  REPO_BRANCH: ax18
 
 on:
   workflow_dispatch:
