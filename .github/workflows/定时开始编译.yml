@@ -13,8 +13,8 @@
 name: 同步源码更新
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/openwrt-gl-ax1800.git
-  REPO_BRANCH: master
+  REPO_URL: https://github.com/sdf8057/immortalwrt.git
+  REPO_BRANCH: AX16
 
 on:
   workflow_dispatch:
