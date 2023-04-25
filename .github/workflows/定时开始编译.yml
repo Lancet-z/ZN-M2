@@ -13,8 +13,8 @@
 name: 同步源码更新
 
 env:
-  REPO_URL: https://github.com/sdf8057/immortalwrt.git
-  REPO_BRANCH: ax18
+  REPO_URL: https://github.com/coolsnowwolf/lede.git
+  REPO_BRANCH: master
 
 on:
   workflow_dispatch:
