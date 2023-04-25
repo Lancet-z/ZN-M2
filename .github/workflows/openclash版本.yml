@@ -25,8 +25,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/sdf8057/immortalwrt.git
-  REPO_BRANCH: ax18
+  REPO_URL: https://github.com/coolsnowwolf/lede.git
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config-clash
   DIY_P1_SH: diy-part1.sh
